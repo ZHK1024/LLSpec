@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name = 'SwiftUIIntrospect'
+  spec.name = 'LLIntrospect'
   spec.version = '0.10.0'
   spec.license = { type: 'MIT' }
   spec.homepage = 'https://github.com/ZHK1024/swiftui-introspect'
