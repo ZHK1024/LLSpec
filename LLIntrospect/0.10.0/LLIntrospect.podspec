@@ -1,13 +1,13 @@
 Pod::Spec.new do |spec|
   spec.name = 'SwiftUIIntrospect'
-  spec.version = ENV['LIB_VERSION']
+  spec.version = '0.10.0'
   spec.license = { type: 'MIT' }
-  spec.homepage = 'https://github.com/siteline/swiftui-introspect'
+  spec.homepage = 'https://github.com/ZHK1024/swiftui-introspect'
   spec.author = 'David Roman'
   spec.summary = 'Introspect underlying UIKit/AppKit components from SwiftUI.'
   spec.source = {
     git: 'https://github.com/ZHK1024/swiftui-introspect.git',
-    tag: spec.version
+    tag: spec.version.to_s
   }
 
   spec.source_files = 'Sources/**/*.swift'
