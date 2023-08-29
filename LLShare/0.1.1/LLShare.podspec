@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LLShare'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '快速导出文件.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Ruris/LLShare'
+  s.homepage         = 'https://github.com/ZHK1024/LLShare'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Ruris' => 'ruris@foxmail.com' }
-  s.source           = { :git => 'https://github.com/Ruris/LLShare.git', :tag => s.version.to_s }
+  s.author           = { 'ZHK1024' => 'ZHK1024@foxmail.com' }
+  s.source           = { :git => 'https://github.com/ZHK1024/LLShare.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
