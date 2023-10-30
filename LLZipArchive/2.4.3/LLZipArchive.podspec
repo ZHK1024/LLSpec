@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/Ruris/LLZipArchive'
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.authors      = { 'Sam Soffes' => 'sam@soff.es', 'Joshua Hudson' => nil, 'Antoine Cœur' => nil }
-  s.source       = { :git => 'https://github.com/Ruris/LLZipArchive.git', :tag => "#{s.version}" }
+  s.source       = { :git => 'https://github.com/Ruris/LLZipArchive.git', :tag => s.version.to_s }
   s.ios.deployment_target = '11.0'
   s.tvos.deployment_target = '9.0'
   s.osx.deployment_target = '10.9'
