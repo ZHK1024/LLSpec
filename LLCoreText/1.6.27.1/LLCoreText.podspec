@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'DTCoreText'
+  spec.name         = 'LLCoreText'
   spec.version      = '1.6.27'
   spec.platforms    = {:ios => '4.3', :tvos => '9.0' }
   spec.license      = 'BSD'
